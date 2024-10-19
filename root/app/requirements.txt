@@ -4,3 +4,4 @@ aiofiles
 Jinja2
 python-multipart
 Mutagen
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
