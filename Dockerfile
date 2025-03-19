@@ -1,4 +1,4 @@
-FROM debian:bookworm-20230703-slim
+FROM debian:12.10-slim
 
 ENV S6_BEHAVIOUR_IF_STAGE2_FAILS="2" \
     PUID="911" \
