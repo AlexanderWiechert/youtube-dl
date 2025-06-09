@@ -3,3 +3,4 @@ fastapi
 aiofiles
 Jinja2
 python-multipart
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
